@@ -2,9 +2,9 @@ namespace OnnxRuntime.ResNet.Template
 {
     public class LabelMap
     {
-        public static readonly string[] Labels = new[] {"tench",
-                                                        "goldfish",
-                                                        "great white shark",
+        public static readonly string[] Labels = new[] {"blowhole",
+                                                        "goodweld",
+                                                        "noweld",
                                                         "tiger shark",
                                                         "hammerhead shark",
                                                         "electric ray",

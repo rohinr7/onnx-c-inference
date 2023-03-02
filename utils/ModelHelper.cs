@@ -27,7 +27,7 @@ namespace OnnxRuntime.ResNet.Template.utils
             // Extract top 10 predicted classes
             List<Prediction> top10 = softmax.Select((x, i) => new Prediction { Label = LabelMap.Labels[i], Confidence = x })
                                .OrderByDescending(x => x.Confidence)
-                               .Take(10).ToList();
+                               .Take(3).ToList();
             return top10;
 
         }
